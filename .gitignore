@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# PyTorch model files (large binary)
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# Data files
+*.csv
+*.tsv
+*.json
+*.xml
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test coverage
+htmlcov/
+.coverage
+.pytest_cache/
+
+# AI assistant internal config (not for public repo)
+.clineignore
+.clinerules
+
+# Temporary downloads
+.pending-*
+
+# Misc
+*.swp
+*.swo
+*~
